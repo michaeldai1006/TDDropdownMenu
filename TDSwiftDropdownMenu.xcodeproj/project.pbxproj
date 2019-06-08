@@ -12,6 +12,9 @@
 		06240AD822AB9111006FEC6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06240AD622AB9111006FEC6E /* Main.storyboard */; };
 		06240ADA22AB9111006FEC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06240AD922AB9111006FEC6E /* Assets.xcassets */; };
 		06240ADD22AB9111006FEC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06240ADB22AB9111006FEC6E /* LaunchScreen.storyboard */; };
+		06240AE822AB91CD006FEC6E /* TDSwiftDropdownMenu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06240AE522AB91CD006FEC6E /* TDSwiftDropdownMenu.xcassets */; };
+		06240AE922AB91CD006FEC6E /* TDSwiftDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06240AE622AB91CD006FEC6E /* TDSwiftDropdownMenu.swift */; };
+		06240AEA22AB91CD006FEC6E /* TDSwiftDropdownMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06240AE722AB91CD006FEC6E /* TDSwiftDropdownMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		06240AD922AB9111006FEC6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06240ADC22AB9111006FEC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		06240ADE22AB9111006FEC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06240AE522AB91CD006FEC6E /* TDSwiftDropdownMenu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TDSwiftDropdownMenu.xcassets; sourceTree = "<group>"; };
+		06240AE622AB91CD006FEC6E /* TDSwiftDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDSwiftDropdownMenu.swift; sourceTree = "<group>"; };
+		06240AE722AB91CD006FEC6E /* TDSwiftDropdownMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDSwiftDropdownMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,9 @@
 		06240AE422AB9121006FEC6E /* TDSwiftDropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				06240AE622AB91CD006FEC6E /* TDSwiftDropdownMenu.swift */,
+				06240AE522AB91CD006FEC6E /* TDSwiftDropdownMenu.xcassets */,
+				06240AE722AB91CD006FEC6E /* TDSwiftDropdownMenu.xib */,
 			);
 			path = TDSwiftDropdownMenu;
 			sourceTree = "<group>";
@@ -130,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06240AE822AB91CD006FEC6E /* TDSwiftDropdownMenu.xcassets in Resources */,
+				06240AEA22AB91CD006FEC6E /* TDSwiftDropdownMenu.xib in Resources */,
 				06240ADD22AB9111006FEC6E /* LaunchScreen.storyboard in Resources */,
 				06240ADA22AB9111006FEC6E /* Assets.xcassets in Resources */,
 				06240AD822AB9111006FEC6E /* Main.storyboard in Resources */,
@@ -143,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06240AE922AB91CD006FEC6E /* TDSwiftDropdownMenu.swift in Sources */,
 				06240AD522AB9111006FEC6E /* ViewController.swift in Sources */,
 				06240AD322AB9111006FEC6E /* AppDelegate.swift in Sources */,
 			);
